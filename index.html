@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Akash Karmakar</h1>
+            <h3>And I'm a <span></span></h3>
+            <p>I am a Computer Science student. I am passionate about solving real-world problems and creating innovative solution through code.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100048719018998"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/i__am_akash_0/"><i class="fa fa-instagram"></i></a>
+                <a
+                    href="https://www.linkedin.com/in/akash-karmakar-912a48315?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bywszkl%2BVQbuW9un7dUpAFQ%3D%3D"><i
+                        class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/akashkarmakar22"><i class="fa fa-github"></i></a>
+            </div>
+            <a href="Akash Karmakar.pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="profile_1.png" alt="profile">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="profile_1.png" alt="profile_1">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hey I am from Burdwan, West Bengal, India. Currently I am attending my graduation degree
+                in Computer Science from Mankar College. <br>
+                I am passionate about learning new technology to solve problems. With a strong foundation
+                in programming language like java and python and databases like SQL and MongoDB.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I am a frontend web developer, I specialize in creating the visual and interactive elements of
+                    websites. I use HTML, CSS, and JavaScript to build user interfaces and ensure a seamless, engaging
+                    experience across different devices and browsers.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Web design</h3>
+                <p>I am a web designer, i focus on creating the visual layout and design of websites. You use tools like
+                    Photoshop, Illustrator, and design principles to craft aesthetically pleasing and user-friendly
+                    interfaces.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxs-data'></i>
+                <h3>SQL</h3>
+                <p>I know designing and managing databases using SQL. I create and optimize database structures. Write
+                    queries to retrieve and manipulate data ensure data integrity and performance.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"><span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="project_1.jpg" alt="project_1">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>A coffee landing page features structured sections like Home, Membership, events, and Contact. It
+                        uses
+                        HTML for structure, CSS for styling and responsive design, and JavaScript for animation.</p>
+                    <a href="https://akashkarmakar22.github.io/landing-page/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="project_4.jpg" alt="project_4">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Simple calculator using HTML, CSS, JavaScript</p>
+                    <a href="https://akashkarmakar22.github.io/calculator/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="project_3.jpg" alt="project_3">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Currently Unavailable</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Akash | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
